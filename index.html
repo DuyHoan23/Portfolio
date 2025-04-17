@@ -1,17 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Figma to HTML - My Portfolio</title>
     <!-- reset css -->
-     <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- embed font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/themify-icons-font/themify-icons/themify-icons.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header fixed">
+      <div class="main-content">
+        <div class="body">
+          <!-- name -->
+          <h1>NGUYỄN DUY HOÀN</h1>
+          <!-- nav -->
+          <nav class="nav">
+            <ul>
+              <li><a href="#!">Home</a></li>
+              <li><a href="#!">About</a></li>
+              <li><a href="#!">Work</a></li>
+            </ul>
+          </nav>
+          <!-- logo social -->
+          <div class="action">
+            <a href="#!"><i class="ti-facebook"></i></a>
+            <a href="#!"><i class="ti-github"></i></a>
+          </div>
+        </div>
+        <div class="resume">
+          <div class="introduce">
+            <div class="sayhi"><h3>Hello, I'm Hoan,</h3></div>
+            <div class="job"><h1>Developer</h1></div>
+            <div class="city"><h3>based in HaNoi</h3></div>
+            <button class="resume-btn">Resume</button>
+          </div>
+          <div class="avatar">
+            <div class="profile-wrapper">
+              <div class="circle-decor">
+                <img
+                  src="./assets/img/anh-cv.jpeg"
+                  alt="Profile"
+                  class="profile-img"
+                />
+              </div>
+              <div class="decor-plus">+++</div>
+              <div class="decor-slash">////</div>
+            </div>
+          </div>
+        </div>
+        <div class="about">
+          <div class="title">about.</div>
+          <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+            vulputate tristique quam felis. Id phasellus dui orci vulputate
+            consequat nulla proin. Id sit scelerisque neque, proin bibendum
+            diam.
+          </div>
+          <div class="detail">
+            <div class="period">
+              <i class="ti-more-alt"></i>
+              <p>2016-2020</p>
+            </div>
+            <div class="work-done">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+              vulputate tristique quam felis. Id phasellus dui orci vulputate
+              consequat nulla proin. Id sit scelerisque neque, proin bibendum
+              diam.
+            </div>
+          </div>
+          <div class="detail">
+            <div class="period">
+              <i class="ti-more-alt"></i>
+              <p>2016-2020</p>
+            </div>
+            <div class="work-done">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+              vulputate tristique quam felis. Id phasellus dui orci vulputate
+              consequat nulla proin. Id sit scelerisque neque, proin bibendum
+              diam.
+            </div>
+          </div>
+          <div class="detail">
+            <div class="period">
+              <i class="ti-more-alt"></i>
+              <p>2016-2020</p>
+            </div>
+            <div class="work-done">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+              vulputate tristique quam felis. Id phasellus dui orci vulputate
+              consequat nulla proin. Id sit scelerisque neque, proin bibendum
+              diam.
+            </div>
+          </div>
+        </div>
+        <div class="work">
+          <div class="title">work.</div>
+          <div class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
+            vulputate tristique quam felis. Id phasellus dui orci vulputate
+            consequat nulla proin. Id sit scelerisque neque, proin bibendum
+            diam.
+          </div>
 
-     <!-- styles -->
-      <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <h1>Figma to HTML - My Portfolio</h1>
-    <h2>demo</h2>
-</body>
+          <div class="work-detail">
+            <div class="case-study">
+              <div class="img-study">
+                <img src="./assets/img/anh_wibu.png" alt="" />
+              </div>
+              <div class="timestamps"><p>November 23, 2019</p></div>
+              <div class="header"><h1>Some case study</h1></div>
+              <div class="detail-study">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  sed aliquam sollicitudin rhoncus morbi. Tincidunt quam sem
+                  elit a convallis. Eget ipsum, velit vitae eu nunc, consequat,
+                  at.
+                </p>
+              </div>
+            </div>
+            <div class="case-study">
+              <div class="img-study">
+                <img src="./assets/img/anh_wibu.png" alt="" />
+              </div>
+              <div class="timestamps"><p>November 23, 2019</p></div>
+              <div class="header"><h1>Some case study</h1></div>
+              <div class="detail-study">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  sed aliquam sollicitudin rhoncus morbi. Tincidunt quam sem
+                  elit a convallis. Eget ipsum, velit vitae eu nunc, consequat,
+                  at.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact"></div>
+      </div>
+    </header>
+  </body>
 </html>
